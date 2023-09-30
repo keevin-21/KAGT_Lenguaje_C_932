@@ -21,6 +21,18 @@ int main()
     return 0;
 }
 
+/*
+    Funcion:
+        - Empezar la simulacion de carrera.
+    Descripcion:
+        - Esta funcion almacena en en el registro las variables de los carros
+        para despues asignarle una velocidad aleatoria y ponerlos a competir en
+        una carrera para saber cual fue el mas rapido.
+    Parametros:
+        - N/A.
+    Retorno:
+        - N/A.
+*/
 void startRace()
 {
     register float r8, mustang, civic;
